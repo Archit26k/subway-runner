@@ -149,7 +149,7 @@ if (gameState === PLAY) {
   fill("red")
   textSize(30)
  text("coin:"+coinScore,width/4.5,height-height+30)
- text("score:"+score,width/2.5,height/height+10)
+ text("score:"+score,width/2.5,height/height+30)
 
   
 }else if (gameState === END) {
